@@ -10,6 +10,10 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
+  #Whatever the url is for the production version is what I need here
+  # config.action_mailer.deliver_method = :smtp
+  # config.action_mailer.default_url_options = { host: => 'localhost:3000', protocol: 'https' }
+
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
