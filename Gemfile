@@ -14,6 +14,8 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 
 gem 'devise'
+gem 'figaro'
+gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'stripe'
